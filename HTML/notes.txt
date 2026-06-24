@@ -1,0 +1,94 @@
+Web Application : 
+-------------------
+    ->Any Applications that will be run browsers is called as web Applications 
+
+Web Pages: 
+-----------
+    ->HTML Document is called as web Page 
+
+Web Sites: 
+------------
+    -> Collection of Web pages is called as  a web Sites
+
+Web Server: 
+-----------
+    ->Collection of web sites is called as a Web server 
+
+HTML: 
+------
+    ->HTML stands for Hyper text markup language 
+    ->Using HTML We can Build Structure of the Web Pages 
+    ->Present  version of HTML 5
+    ->HTML Contains Series of Elements
+
+HTML boiler plate / html Structure : 
+-------------------------------------
+
+
+Tags : 
+------
+    ->tags are predefine words which are inclosed with bath opening and closing angular brackets 
+    Types tags : 
+    1. paired tags :
+        1. heading tags 
+        2. formatting tags 
+            1. <b></b>
+            2. <strong></strong>
+            3. <i></i>
+            4. <em></em>
+            5. <sub></sub>
+            6. <sup></sup> 
+            7. <mark></mark> 
+            8. <u></u>
+            9. <strike></strike>
+            10. <marquee></marquee>
+            
+        3. other tags 
+            Ex: <p> </p> , <div></div> , <span></span>, All list tags , media tags , table
+
+
+
+
+    2. unpaired tags/ self closing tags 
+        ->Any tags having only opening tag 
+        Ex: <br> , <img> ,<input> , <col> , <hr>..etc 
+
+
+ List In HTML :
+ ---------------
+    1. Ordered List 
+        -> <ol></ol> is used to display order list 
+        -> ol contains <li></li> tags 
+        ->default ype of the order list is numbers 
+        ->Ordered List Attribute:
+        --------------------------
+            1. type : 1, a , A, i , I 
+            2. start 
+            3. reversed
+
+
+    2. Unordered list 
+        -> <ul></ul> is used to display Unordered list 
+        -> ul contains <li></li> tags 
+        ->default ype of the order list is numbers 
+        ->Ordered List Attribute:
+        --------------------------
+            1. type : none , circle , square , desc 
+           
+
+    3. Description List / Definition List 
+    4. Nested List 
+
+
+
+
+Table in HTML 
+-------------
+    table tags 
+     <table></table>
+     <tr></tr>
+     <td></td>
+     <th></th>
+     <thead></thead>
+     <tbody></tbody>
+     <tfoot></tfoot>

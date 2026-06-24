@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body {
+            background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230718/pngtree-contemporary-authentic-3d-renderings-of-web-login-page-templates-image_3904126.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        fieldset {
+            border: none;
+            background-image: radial-gradient(salmon, rgba(68, 255, 0, 0.539));
+            padding: 30px;
+            border-radius: 5px 50px;
+            box-shadow: 10px 10px 50px red;
+        }
+
+
+        button {
+            padding: 8px 30px;
+            font-family: monospace;
+            font-weight: 900;
+            font-style: italic;
+            background-color: black;
+            color: aliceblue;
+            border-radius: 8px;
+            margin: 10px;
+        }
+
+        button:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+            background-color: rgba(0, 0, 0, 0.464);
+        }
+
+        h1 {
+            border-radius: 20px;
+            background-image: linear-gradient(45deg, red, white, green);
+            color: green;
+            text-align: center;
+        }
+
+        label {
+            font-style: italic;
+        }
+
+        label::after {
+            content: "*";
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <form action="">
+            <fieldset>
+                <legend>
+                    Sign-Up
+                </legend>
+
+                <h1>Register Form</h1>
+
+                <label for="fname">First name</label>
+                <input required placeholder="Enter Your First name" type="text" id="fname" name="" id="">
+                <br>
+                <br>
+
+                <label for="">Last Name</label>
+                <input type="text" required placeholder="Enter Your Last name">
+                <br>
+                <br>
+
+                <label for="pho">Phone</label>
+                <input type="tel" placeholder="+91" required id="pho">
+                <br>
+                <br>
+
+                <label for="email">Email</label>
+                <input type="email" placeholder="admin@gmail.com" required id="email">
+
+                <br>
+                <br>
+
+                <label for="dob">Date of Birth</label>
+                <input type="date" required id="dob">
+                <br><br>
+                <label for="">Gender</label>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+                <input type="radio" name="gender"> Other
+
+
+                <br><br>
+                <label for="">Profile Pic</label>
+                <input type="file" required>
+
+                <br><br>
+                <label for="">Skin Color</label>
+                <input type="color" required>
+
+                <br><br>
+                <label for="">Skills</label>
+                <input type="checkbox">Node js
+                <input type="checkbox">Express Js
+                <input type="checkbox">React Js
+                <input type="checkbox">MongoDb
+
+                <br><br>
+
+
+                <button type="submit">Register</button>
+                <button type="reset">Cancel</button>
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

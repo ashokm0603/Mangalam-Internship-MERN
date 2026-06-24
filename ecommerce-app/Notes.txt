@@ -1,0 +1,147 @@
+Javascript : 
+--------------
+    ->javascript is scripting language as well  as programming language 
+
+
+Why we need JS : 
+---------------
+    ->Using JS We build Dynamic Web applications 
+    -> We can add Functionalities to Web Applications 
+    ->We can fetch Data from the server using JS and also we can send data to the server 
+    ->We can Manipulate HTML and CSS using JS 
+    ->Here we can achieve DOM(Document Object Model) Functionalities 
+
+Methods to Write JS code : 
+    1. Inline Javascript 
+    2. Internal Javascript
+    3. External Javascript
+
+
+Variables : 
+-----------
+    ->Variables are the named memory location used to store data or values and it can change N No.Of during execution 
+
+
+        In Javascript we can declared 3 different ways 
+            1. let       (local scop/block scop)
+            2. var         (global scop)
+            3. const      (local scop/block scop)
+
+
+DataTypes: 
+
+    1. Primitive Datatypes 
+        1. number 
+        2. string 
+        3. boolean 
+        4. null
+        5. bigInt 
+        6. symbol 
+        7. undefine 
+
+    2. Non Primitive Datatypes
+        1.Arrays 
+        2. Objects 
+        3. functions
+
+
+Functions : 
+    ->Functions are Block of statements that will be execute when ever it is called 
+         Types: 
+            1. pre define functions
+             2. user define functions 
+
+
+            
+
+            1. named / normal function 
+            2. arrow function (ES6) 
+            3. Higher order Function 
+                ->Any functions that will be accept another functions as a parameters
+            4. callback function 
+                ->Any function passing as value to the Higher order function is called as a callback function  
+
+
+
+React + Vite (npm ) 
+
+Steps to Create React App : 
+---------------------------
+    Step 1: 
+            Open Working folder in Terminal Enter Command 
+                    npm create vite@latest
+    step 2: 
+            Enter Project Name (doesn't contains spaces / UpperCase)
+    step 3:
+            choose React FrameWork 
+
+    step 4: 
+            choose javascript variant 
+
+    Step 5: choose yes to allow install packages  
+
+
+
+
+
+
+
+Components in React: 
+--------------------
+    ->Components are for the smallest Units in UI(user interface) 
+
+    Types : 
+        1. function based components 
+            ->Any components declared using Functions is called CBC 
+            ->CBC also called as a stateLess components 
+            ->here States are not present 
+            ->Render() , super , this keywords not present
+
+            Syntax 1: 
+                    function ComponentName(){
+                            return (
+                                here write HTML code
+                            )
+                    } 
+                    export default ComponentName;
+
+
+            Syntax 2: 
+                    const ComponentName=()=>{
+                            return (
+                                here write HTML code
+                            )
+                    } 
+                    export default ComponentName;
+
+
+
+
+        2. Class Based Components 
+
+
+Hooks (16.8): 
+->hooks are used to make Function based components  state full 
+->hooks used in only Function based Component 
+->Ex: 
+        useState() , useNavigate() , useEffect() ,useMemo() , useRef()
+
+
+States : 
+-------
+    ->States are used to hold data 
+    ->States are mutable in nature 
+    ->States are present only class based Component
+
+
+
+
+
+
+
+https://www.youtube.com/video?gsfdgjf6234236
+
+
+
+1. using then() and catch() 
+2. using async and await

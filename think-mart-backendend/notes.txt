@@ -1,0 +1,13 @@
+
+List API END POINTS : 
+----------------------                  
+            URL                                   HTTP METHOD
+     ----------------------                  -----------------       
+    1.http://localhost:5000/add-user               post 
+    2.http://localhost:5000/add-product            post 
+    3.http://localhost:5000/get-users              get
+    4.http://localhost:5000/get-products           get
+    5.http://localhost:5000/delete-user/id         delete
+    6.http://localhost:5000/delete-product/id      delete
+    7.http://localhost:5000/update-product/id      put 
+    8.http://localhost:5000/update-user/id         put 

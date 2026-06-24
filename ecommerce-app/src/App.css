@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+
+
+
+label{
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+label::after{
+    content: "*";
+    color: red;
+}
